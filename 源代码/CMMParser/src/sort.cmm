@@ -1,0 +1,39 @@
+int[10] arr;//the array
+
+/*input the arr*/
+void input(){
+    for(int i=0;i<arr #length ;i++){
+        write "input arr element ";
+        write i+1;
+        write " : ";
+        read arr[i];
+    }
+}
+
+/*sort the arr*/
+void sort(){
+    for(int i=9;i>=0;i--){
+        for(int j=0;j<i;j++){
+            if(arr[j]>arr[j+1]){
+                int temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
+            }
+        }
+    }
+}
+
+/*output the arr*/
+void print(){
+    for(int i=0;i<arr #length ;i++){
+        write arr[i];
+        write " ";
+    }
+    write "\n";
+}
+
+void main(){
+    input();
+    sort();
+    print();
+}

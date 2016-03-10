@@ -1,0 +1,16 @@
+//test while statement
+void main(){
+    int i=0;
+    while(i<5){
+        write i;write " ";
+        i++;
+    }
+    write "\n";
+    
+    while(i>=0){
+        write i;write " ";
+        i--;
+    }
+    write "\n";
+    return;
+}

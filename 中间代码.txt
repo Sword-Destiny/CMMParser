@@ -1,0 +1,10 @@
+37种中间代码指令
+其中有进行算数操作的
+有进行跳转的 jmp,jmpc
+I/O操作的 read/write
+内存开辟 space
+函数返回 ret
+bp,tp操作
+程序结束指令 halt
+数据转换指令 cvt
+load/mov是赋值或者数据传送指令

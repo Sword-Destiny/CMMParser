@@ -1,0 +1,4 @@
+void main(){
+    write "Hello, World!\n";
+    return;
+}

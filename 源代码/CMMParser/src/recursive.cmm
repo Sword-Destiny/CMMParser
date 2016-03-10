@@ -1,0 +1,15 @@
+//recursive
+
+int fib_1(int n){
+    if (n==1){
+        return 1;
+    }else if(n==2){
+        return 1;
+    }
+    int fib_num=fib_1(n-1)+fib_1(n-2);
+    return fib_num;
+}
+
+void main(){
+    write fib_1(20);
+}

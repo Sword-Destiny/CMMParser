@@ -1,0 +1,12 @@
+void main(){
+    int r;
+    write "Please Input r : ";
+    read r;
+    write "Your input is : ";
+    write r;
+    write "\n";
+    if(r>0){
+        write "r > 0\n";
+    }else
+        write "r <= 0\n";
+}

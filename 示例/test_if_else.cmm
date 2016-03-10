@@ -1,0 +1,28 @@
+//test if-else statement
+
+int i,j;
+
+void main(){
+    int k=0+2*4^5;
+    write k;write "\n";
+    write "please input i : ";read i;
+    write "please input j : ";read j;
+    if(i<0)
+        if(j<0)
+            write "i<0,j<0\n";
+        else
+            write "i<0,j>=0\n";
+    else
+        if(j<0)
+            write "i>=0,j<0\n";
+        else
+            write "i>=0,j>=0\n";
+    
+    if(k>0){
+        write "k>0\n";
+    }else if(k==0){
+        write "k==0\n";
+    }else{
+        write "k<0\n";
+    }
+}

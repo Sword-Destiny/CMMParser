@@ -1,0 +1,22 @@
+int fibnacci_2(int n) {
+    if (n <= 0) {
+        return -1;
+    }
+    else if (n == 1 || n == 2) {
+        return 1;
+    }
+    int j = 1;
+    int k = 1;
+    for (int i = 2; i < n; i += 2) {
+        j = j + k;
+        k = k + j;
+    }
+    if(n%2==0){
+        return k;
+    }
+    return j;
+}
+
+void main(){
+    write fibnacci_2(20);write "\n";
+}

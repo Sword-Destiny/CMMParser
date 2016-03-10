@@ -1,0 +1,10 @@
+void main(){
+    real c=3.0;
+    real d=2.0;
+    write c+d;write "\n";
+    write c-d;write "\n";
+    write c*d;write "\n";
+    write c/d;write "\n";
+    write c%d;write "\n";
+    return;
+}

@@ -1,0 +1,29 @@
+int[10] a;
+
+void main(){
+    int[8] b;
+    for(int i=9;i>=0;i--){
+        a[9-i]=i*3;
+    }
+    for(int j=1;j<9;j++){
+        b[j-1]=j;    
+    }
+    for(int i=0;i<10;i++){
+        write a[i];
+        write " ";
+    }
+    write "\n";
+    for(int i=0;i<8;i++){
+        write b[i];
+        write " ";
+    }
+    write "\n";
+    int x=0,y=0,z=0;
+    int temp=a[0];
+    a[0]=1;
+    x=y=z=5+a[0]*b[0];
+    a[0]=temp;
+    write x;write y;write z;
+    write "\n";
+    return;
+}

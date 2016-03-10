@@ -1,0 +1,23 @@
+//test for statement
+void main(){
+    void test_for();//function declaration
+    test_for();
+    return;
+}
+
+int i=0;
+
+void test_for(){
+    int j=0;
+    for(i=1;i<10;i++){
+        for(j=1;j<10;j++){
+            write "(";
+            write i;
+            write ",";
+            write j;
+            write ")";
+            write " ";
+        }
+        write "\n";
+    }
+}

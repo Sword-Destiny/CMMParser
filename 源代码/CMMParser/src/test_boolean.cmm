@@ -1,0 +1,16 @@
+//test_boolean
+void main(){
+    int a,b=0;
+    a=1;
+    boolean c=a>b;
+    write c;write "\n";
+    boolean d=false ;
+    write c&d;write "\n";
+    write c|d;write "\n";
+    write c&&d;write "\n";
+    write c||d;write "\n";
+    write c^d;write "\n";
+    write c==d;write "\n";
+    write c!=d;write "\n";
+    return;
+}
